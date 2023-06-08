@@ -1,22 +1,47 @@
 body {
-    background-color: #a26736;
+    background-color: #835229;
     color: beige;
 }
 
 h1,
 h2,
-h3 {
+.ticket-btn {
     font-family: 'Cinzel Decorative', cursive;
     font-weight: 400;
+}
+
+h1 {
+    border-bottom: 1px solid #e5b996;
 }
 
 h2 {
     font-size: 20px;
     letter-spacing: 1px;
+    margin: 10px 0px;
+
 }
 
-h3 {
-    font-size: 30px;
+.ticket-btn {
+    font-size: 23px;
     letter-spacing: 1px;
     font-weight: 600;
+    color: rgb(244, 244, 202);
+    background-color: transparent;
+    border: 1px solid beige;
+    border-radius: 30px;
+    padding: 5px 20px;
+    margin: 10px 0px;
+}
+
+.vinyl-records {
+    width: 100%;
+    -webkit-mask-image: linear-gradient(to right, transparent, black);
+    mask-image: linear-gradient(to right, transparent, black);
+}
+
+.main-display.col-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
