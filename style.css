@@ -1,6 +1,6 @@
 body {
-    background-color: #b7631f;
-    color: beige;
+    background-color: #c25e11;
+    color: #f5f5dc;
 }
 
 h1,
@@ -8,6 +8,11 @@ h2,
 .ticket-btn {
     font-family: 'Cinzel Decorative', cursive;
     font-weight: 400;
+}
+
+.navbar-title {
+    font-family: 'Merriweather', serif;
+    padding-right: 10px;
 }
 
 h1 {
@@ -44,4 +49,8 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.bi.bi-vinyl {
+    margin-right: 0.5em;
 }
