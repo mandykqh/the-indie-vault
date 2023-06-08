@@ -15,8 +15,21 @@ h2,
     padding-right: 10px;
 }
 
+.nav-item {
+    transition: background-color 200ms ease-in-out;
+}
+
+.nav-item:hover {
+    text-shadow: rgb(255, 232, 84) 0px 0 6px;
+}
+
 h1 {
     border-bottom: 1px solid #e5b996;
+    font-size: 62px;
+    line-height: 0.9;
+    padding-bottom: 10px;
+    /*margin: 0px 100px;*/
+    letter-spacing: 3px;
 }
 
 h2 {
@@ -27,9 +40,10 @@ h2 {
 }
 
 .ticket-btn {
+    font-family: 'Merriweather', serif;
     font-size: 23px;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: 400;
     color: rgb(244, 244, 202);
     background-color: transparent;
     border: 1px solid beige;
@@ -44,11 +58,13 @@ h2 {
     mask-image: linear-gradient(to right, transparent, black);
 }
 
-.main-display.col-5 {
+.main-display {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding-right: 0px;
 }
 
 .bi.bi-vinyl {
