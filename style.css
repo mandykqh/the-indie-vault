@@ -284,13 +284,14 @@ a:hover {
     font-weight: 600;
     font-size: 25px;
     letter-spacing: 13px;
-    background-color: #c25e11;
+    background: linear-gradient(#F1994E, #F2653E);
+
     transform: rotate(90deg);
     position: absolute;
-    transform-origin: 22px;
-    padding: 10px 20px;
+    transform-origin: 20px;
+    padding: 7px 20px;
     border-radius: 10px 10px 0px 0px;
-    box-shadow: 5px -5px 2px rgb(204, 182, 142);
+    box-shadow: 3px -3px 10px rgb(0 0 0 / 0.3);
 }
 
 .album-img,
