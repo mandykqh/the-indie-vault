@@ -331,12 +331,26 @@ a:hover {
     scroll-behavior: smooth;
 }*/
 
-#footer-vinyl {
-    color: black;
-}
-
-.container#footer {
+.container#footer-vinyl,
+.container#footer-socials {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: black
+}
+
+footer {
+    font-family: 'Merriweather', serif;
+    color: #683923;
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 10px;
+}
+
+.footer-icon-container {
+    padding: 15px 10px;
+}
+
+.footer {
+    margin-bottom: 80px;
 }
