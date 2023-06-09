@@ -273,16 +273,24 @@ a:hover {
     font-size: 12px;
 }
 
+.sticky-wrapper {
+    position: sticky;
+    top: 0;
+}
+
 .collection-tab {
     color: #f5f5dc;
     font-family: 'Cinzel Decorative', cursive;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 25px;
-    letter-spacing: 5px;
-    background-color: #683923;
+    letter-spacing: 13px;
+    background-color: #c25e11;
     transform: rotate(90deg);
     position: absolute;
-    transform-origin: left;
+    transform-origin: 22px;
+    padding: 10px 20px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 5px -5px 2px rgb(204, 182, 142);
 }
 
 .album-img,
