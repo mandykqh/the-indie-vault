@@ -245,8 +245,11 @@ a:hover {
     margin: 10px 0px;
 }
 
-.album {
+.album,
+.ep {
     color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 h5 {
