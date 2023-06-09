@@ -339,6 +339,22 @@ a:hover {
     color: black
 }
 
+.bi-facebook,
+.bi-instagram,
+.bi-twitter,
+.bi-spotify,
+.bi-youtube {
+    transition: color 200ms ease-in-out;
+}
+
+.bi-facebook:hover,
+.bi-instagram:hover,
+.bi-twitter:hover,
+.bi-spotify:hover,
+.bi-youtube:hover {
+    color: #F2653E;
+}
+
 footer {
     font-family: 'Merriweather', serif;
     color: #683923;
