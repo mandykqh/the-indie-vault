@@ -131,14 +131,17 @@ h4 {
 }
 
 .now-featuring,
-.indie-artists {
+.indie-artists,
+.our-collection,
+.top-picks {
     font-family: 'Cinzel Decorative', cursive;
     font-weight: 400;
     letter-spacing: 2px;
     text-align: center;
 }
 
-.now-featuring {
+.now-featuring,
+.our-collection {
     padding-top: 30px;
     font-style: italic;
     font-size: 100px;
@@ -146,8 +149,9 @@ h4 {
     line-height: 1;
 }
 
-.indie-artists {
-    font-size: 50px;
+.indie-artists,
+.top-picks {
+    font-size: 40px;
     color: coral;
     text-align: center;
     padding-top: 0px;
@@ -239,4 +243,12 @@ a:hover {
 
 .container-fluid {
     margin: 10px 0px;
+}
+
+.album {
+    color: black;
+}
+
+h5 {
+    color: black;
 }
