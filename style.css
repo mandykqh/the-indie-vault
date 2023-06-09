@@ -175,7 +175,7 @@ h4 {
 }
 
 .normal-text {
-    color: rgb(104, 57, 35);
+    color: #683923;
     font-family: 'Merriweather', serif;
     letter-spacing: 1px;
     word-spacing: 4px;
@@ -247,11 +247,26 @@ a:hover {
 
 .album,
 .ep {
-    color: black;
+    color: #bbab90;
     display: flex;
     flex-direction: column;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
 }
 
-h5 {
-    color: black;
+.collection-tab {
+    color: #f5f5dc;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 5px;
+    background-color: #683923;
+    transform: rotate(90deg);
+    position: absolute;
+    transform-origin: left;
+}
+
+.album-img,
+.ep-img {
+    padding: 20px 15px;
 }
